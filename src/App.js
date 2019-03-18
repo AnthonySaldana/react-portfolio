@@ -4,6 +4,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
+import Pricing from './components/Pricing';
 import Testimonials from  './components/Testimonials';
 import ContactUs from './components/Contact';
 import Footer from './components/Footer';
@@ -17,6 +18,7 @@ class App extends Component {
         <About />
         <Portfolio />
         <Resume />
+        <Pricing />
         <ContactUs />
         <Footer />
       </div>

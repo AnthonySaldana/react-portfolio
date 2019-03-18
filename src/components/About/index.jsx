@@ -5,14 +5,12 @@ export default class About extends Component {
       <section id="about">
         <div className="row">
           <div className="twelve columns">
-            <h2>About Us</h2>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-              sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
-            </p>
+            <h2>About</h2>
+            <p>Dedicated to taking your business to the next level, we create smart and polished sites and applications. 
+              Every button is a call to action and deserves care and intention. Every piece of text is a sales pitch working for you 24 hours a day, seven days a week.
+              All elements of your business deserve the best and we deliver that.</p>
+              <p>Whether you simply want to showcase what your business offers or have a need for custom infrastructure in your day to day operations,
+              let's partner together and take your business to the next tier of success.</p>
           </div> {/* end .main-col */}
         </div>
       </section>
