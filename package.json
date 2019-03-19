@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anthonysaldana.github.io/react-portfolio/",
+  "homepage": "https://anthonysaldana.com",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.4.2",
