@@ -5,7 +5,7 @@ export default class Portfolio extends Component {
     <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Here's a taste of what we've done.</h1>
+          <h1>Here's a preview of my work.</h1>
           {/* portfolio-wrapper */}
           <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
             <div className="columns portfolio-item">
@@ -44,12 +44,12 @@ export default class Portfolio extends Component {
               <div className="item-wrap">
                 <a href="#modal-03" title>
                 <div style={{maxHeight: "200px", overflow: "hidden"}}>
-                  <img alt src="images/portfolio/seamsirenmap.png" />
+                  <img alt src="images/portfolio/gmtools.png" />
                 </div>
                   <div className="overlay">
                     <div className="portfolio-item-meta">
-                      <h5>seamsiren</h5>
-                      <p>Interactive Wiki</p>
+                      <h5>GM Tools</h5>
+                      <p>Market Aggregator for NFTs</p>
                     </div>
                   </div>
                   <div className="link-icon"><i className="icon-plus" /></div>
@@ -85,14 +85,14 @@ export default class Portfolio extends Component {
           </div>
         </div>{/* modal-02 End */}
         <div id="modal-03" className="popup-modal mfp-hide">
-          <img className="scale-with-grid" src="images/portfolio/seamsirenmap.png" alt />
+          <img className="scale-with-grid" src="images/portfolio/gmtools.png" alt />
           <div className="description-box">
-            <h4>seamsiren</h4>
-            <p>Developed an interactive plant/fabric wiki and online clothing store</p>
+            <h4>GM Tools</h4>
+            <p>Developed a Market Aggregator for NFTs with specialized trading tools</p>
             <span className="categories"><i className="fa fa-tag" />Web Development</span>
           </div>
           <div className="link-box">
-            <a href="https://seamsiren.com/pages/plant-map">Details</a>
+            <a href="https://app.gm-tools.xyz">Details</a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>{/* modal-03 End */}

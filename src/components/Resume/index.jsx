@@ -14,10 +14,13 @@ export default class Resume extends Component {
           <h2>Experience</h2>
             <div className="row item">
               <div className="twelve columns">
-                <h4>Motor Trend</h4>
-                <p className="info">Senior Software Engineer</p>
-                <p>
-                  Developing features and refactoring Motor Trend on Demand, a popular video on demand platform targeted at car enthusiasts.
+                <h4>MotorTrend (Warner Bros Discovery)</h4>
+                <p className="info">Software Engineer II<span>•</span> <em className="date">2019 - 2023</em></p>
+                <p>As Lead full stack developer I shipped various features utilizing React and GraphQL.
+                  This required development and collaboration across 3 codebases,
+                  and delegating tasks across 2 teams. Through my leadership,
+                  we were able to deliver features on-time and with high quality,
+                  contributing to the platform's success.
                 </p>
               </div>
             </div> {/* item end */}

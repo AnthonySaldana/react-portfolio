@@ -9,7 +9,7 @@ export default class Header extends Component {
               <li><a href="#"><i className="fa fa-linkedin" /></a></li>
             </ul>
             <ul className="copyright">
-              <li>© Copyright 2019 - Anthony Saldana</li>
+              <li>© Copyright {new Date().getFullYear()} - Anthony Saldana</li>
             </ul>
           </div>
           <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>

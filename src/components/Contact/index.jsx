@@ -5,7 +5,7 @@ export default class Header extends Component {
       <section id="contact">
         <div className="row">
         <div className="twelve columns header-col">
-            <h1>Get In Touch.</h1>
+            <h1>Get In Touch for a quote or consultation.</h1>
           </div>
         </div>
         <div className="row section-head">
