@@ -6,7 +6,7 @@ export default class Header extends Component {
         <div className="row">
           <div className="twelve columns">
             <ul className="social-links">
-              <li><a href="#"><i className="fa fa-linkedin" /></a></li>
+              <li><a href="https://www.linkedin.com/in/anthony-saldana-jr/"><i className="fa fa-linkedin" /></a></li>
             </ul>
             <ul className="copyright">
               <li>© Copyright {new Date().getFullYear()} - Anthony Saldana</li>
