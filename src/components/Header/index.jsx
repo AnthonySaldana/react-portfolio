@@ -19,7 +19,7 @@ export default class Header extends Component {
               effective applications & sites for companies of all sizes.</h3>
             <hr />
             <ul className="social">
-              <li><a href="https://www.linkedin.com/in/anthony-saldana-jr/"><i className="fa fa-linkedin" /></a></li>
+              <li><a target="_blank" href="https://www.linkedin.com/in/anthony-saldana-jr/"><i className="fa fa-linkedin" /></a></li>
             </ul>
           </div>
         </div>
