@@ -15,6 +15,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "aws s3 sync build/ s3://anthonysaldana.com --acl public-read"
+    "deploy": "aws s3 sync build/ s3://anthonysaldana.com --acl public-read",
+    "clear-cache": "aws cloudfront create-invalidation --distribution-id E25A80WT9D2XZN --paths \"/*\""
   }
 }

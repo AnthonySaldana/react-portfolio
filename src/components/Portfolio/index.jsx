@@ -17,7 +17,7 @@ export default class Portfolio extends Component {
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <h5>Motor Trend On Demand</h5>
-                      <p>Streaming</p>
+                      <p>Streaming + Media</p>
                     </div>
                   </div>
                   <div className="link-icon"><i className="icon-plus" /></div>
@@ -63,12 +63,14 @@ export default class Portfolio extends Component {
         <div id="modal-01" className="popup-modal mfp-hide">
           <img className="scale-with-grid" src="images/portfolio/MotorTrendDesktop.png" alt />
           <div className="description-box">
-            <h4>Motor Trend On Demand</h4>
+            <h4>Motor Trend</h4>
+            <p>Full stack development on Motortrend.com, a high traffic auto news site.</p>
+            <p>Custom CMS development, Video player development, Building apis in graphql</p>
             <p>Front End development on a high traffic video on demand platform</p>
-            <span className="categories"><i className="fa fa-tag" />Front end development</span>
+            <span className="categories"><i className="fa fa-tag" />Full Stack Application Development</span>
           </div>
           <div className="link-box">
-            <a href="https://www.motortrendondemand.com/">Details</a>
+            <a target="blank" href="https://www.motortrend.com/">Visit Site</a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>{/* modal-01 End */}
@@ -80,7 +82,7 @@ export default class Portfolio extends Component {
             <span className="categories"><i className="fa fa-tag" />Web Development, ad martketing</span>
           </div>
           <div className="link-box">
-            <a href="http://alistdaily.com">Details</a>
+            <a target="blank" href="http://alistdaily.com">Visit Site</a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>{/* modal-02 End */}
@@ -89,10 +91,13 @@ export default class Portfolio extends Component {
           <div className="description-box">
             <h4>GM Tools</h4>
             <p>Developed a Market Aggregator for NFTs with specialized trading tools</p>
-            <span className="categories"><i className="fa fa-tag" />Web Development</span>
+            <p>Devloped complex apis and workers to process tons of data every second</p>
+            <p>Break down complicated data from several sources into simple and elegant graphs and views</p>
+            <p>Real time data with real time trading tools</p>
+            <span className="categories"><i className="fa fa-tag" />Full Stack Application Development</span>
           </div>
           <div className="link-box">
-            <a href="https://app.gm-tools.xyz">Details</a>
+            <a target="blank" href="https://app.gm-tools.xyz">Visit App</a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>{/* modal-03 End */}

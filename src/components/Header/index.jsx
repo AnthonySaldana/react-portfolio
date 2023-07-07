@@ -15,7 +15,7 @@ export default class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline h2">Saldana Consulting</h1>
-            <h3>Based in Los Angeles, We create awesome and
+            <h3>Based in Los Angeles, I create awesome and
               effective applications & sites for companies of all sizes.</h3>
             <hr />
             <ul className="social">
